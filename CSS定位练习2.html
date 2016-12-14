@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <style type="text/css">
+      .bg{
+        height: 384px;
+        background: url('images/brick.jpg');
+        background-size: 50px 50px;
+      }
+      .fireplace{
+        height: 384px;
+        width: 256px;
+        position: relative;
+        left:50%;
+        transform: translate(-50%,0);
+        background-color: black;
+      }
+      .topplace{
+        height: 192px;
+        width:256px;
+        background: url('images/inner_cobble_stone.png');
+        background-size:50px 50px;
+      }
+      .bottomplace{
+        height: 192px;
+        width: 256px;
+        background: url('images/stonebrick.png');
+        background-size: 50px 50px;
+      }
+      .innerplace{
+        height: 128px;
+        width: 128px;
+        background: url('images/inner_cobble_stone.png');
+        background-size: 40px 40px;
+        position: relative;
+        top:64px;
+        left:64px;
+      }
+      .ironbars{
+        height: 64px;
+        width: 128px;
+        background: url('images/iron_bars.png');
+        background-size: contain;
+        position: relative;
+        transform: translate(-50%,-100%);
+        top:100%;
+        left:50%;
+      }
+      .fire{
+        height: 128px;
+        width: 128px;
+        background: url('images/har.gif');
+        background-size: cover;
+        position: absolute;
+        transform: translate(-50%,-100%);
+        top:100%;
+        left:50%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="bg">
+      <div class="fireplace">
+        <div class="topplace">
+        </div>
+        <div class="bottomplace">
+          <div class="innerplace">
+
+            <div class="fire">
+              <div class="ironbars">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
